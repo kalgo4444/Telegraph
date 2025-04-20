@@ -1,0 +1,31 @@
+.header{
+    background: #fff;
+}
+.navbar{
+    height: 146px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar button{
+    padding: 15px 20px;
+    background: var(--main-color);
+    border-radius: var(--btn-radius);
+    color: #fff;
+    font-size: 14px;
+    transition: var(--transition);
+}
+.navbar button:hover{
+    background: var(--main-color-hover);
+}
+.navbar button:active{
+    background: var(--main-color);
+}
+
+
+@media (max-width: 768px) {
+    .navbar{
+        height: 100px;
+    }
+}

@@ -1,0 +1,31 @@
+.start{
+    margin-top: 100px;
+}
+.start__wrapper{
+    padding: 50px 20px;
+    background: var(--second-color);
+    border-radius: 25px;
+    text-align: center;
+}
+.start__wrapper h2,.start__wrapper p{
+    color: #fff;
+}
+.start__wrapper h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.start__wrapper p{
+    max-width: 580px;
+    width: 100%;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+@media (max-width:550px) {
+    .start__wrapper h2{
+        font-size: 32px;
+    }
+    .start__wrapper p{
+        font-size: 16px;
+    }
+}

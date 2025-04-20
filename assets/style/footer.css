@@ -1,0 +1,25 @@
+.footer{
+    margin-top: 50px;
+}
+.footer__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    padding: 30px 0;
+}
+.footer__wrapper__active{
+    display: flex;
+    gap: 30px;
+}
+.footer__wrapper__active a:hover{
+    
+}
+
+
+@media (max-width:768px) {
+    .footer__wrapper{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
