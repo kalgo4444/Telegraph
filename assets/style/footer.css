@@ -12,8 +12,11 @@
     display: flex;
     gap: 30px;
 }
+.footer__wrapper__active a{
+    transition: var(--transition);
+}
 .footer__wrapper__active a:hover{
-    
+    color: var(--main-color-hover);
 }
 
 

@@ -6,6 +6,12 @@
     background: var(--second-color);
     border-radius: 25px;
     text-align: center;
+    transition: var(--transition);
+    border-radius: var(--btn-radius);
+    overflow: hidden;
+}
+.start__wrapper:hover{
+    box-shadow: var(--box-shadow);
 }
 .start__wrapper h2,.start__wrapper p{
     color: #fff;

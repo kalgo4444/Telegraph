@@ -10,6 +10,7 @@
 .cards__card{
     padding: 30px;
     transition: var(--transition);
+    border-radius: var(--btn-radius);
 }
 .cards__card:hover{
     box-shadow: var(--box-shadow);
