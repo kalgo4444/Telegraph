@@ -1,0 +1,41 @@
+.keep{
+    margin-top: 175px;
+}
+.keep__wrapper{
+    display: flex;
+    min-height: 614px;
+    position: relative;
+}
+.keep__img, .keep__info{
+    width: 50%;
+}
+.keep__img img:last-child{
+    display: block;
+    margin: 0 auto;
+}
+.bgImage2{
+    position: absolute;
+    top: -15%;
+    left: 20%;
+    z-index: 0;
+}
+.keep__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+@media (max-width:810px) {
+    .keep{
+        margin-top: 100px;
+    }
+    .keep__wrapper{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .keep__img, .keep__info{
+        width: 100%;
+    }
+}

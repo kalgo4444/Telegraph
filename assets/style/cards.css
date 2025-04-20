@@ -2,14 +2,12 @@
     margin-top: 80px;
 }
 .cards__wrapper{
-    border: 1px solid red;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     place-content: center;
 }
 .cards__card{
-    border: 1px solid blue;
     padding: 30px;
     transition: var(--transition);
 }
@@ -31,6 +29,10 @@
 .cards__card__active a{
     cursor: pointer;
     text-decoration: underline;
+    transition: var(--transition);
+}
+.cards__card__active a:hover{
+    color: var(--main-color-hover);
 }
 .cards__card__active img{
     cursor: pointer;

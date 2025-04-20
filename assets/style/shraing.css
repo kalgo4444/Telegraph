@@ -1,0 +1,33 @@
+.sharing{
+    margin-top: 100px;
+}
+.sharing__wrapper{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 572px;
+}
+.sharing__img, .sharing__info{
+    width: 50%;
+    border: 1px solid blue;
+}
+.sharing__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+@media (max-width:810px) {
+    .sharing{
+        margin-top: 100px;
+    }
+    .sharing__wrapper{
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    .sharing__img, .sharing__info{
+        width: 100%;
+    }
+}

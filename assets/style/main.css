@@ -57,6 +57,14 @@ h1,h2,h3,h4,p,span,a{
     padding-left: 20px;
     padding-right: 20px;
 }
+.sContainer{
+    max-width: 1098px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 
 /* button  */
@@ -78,5 +86,36 @@ h1,h2,h3,h4,p,span,a{
 @media (max-width:768px) {
     .btn{
         margin: 30px auto 0;
+    }
+}
+
+
+/* section simple sharing keep */
+
+.title{
+    font-size: 35px;
+}
+.text{
+    margin-top: 30px;
+    font-size: 18px;
+}
+.title, .text{
+    max-width: 466px;
+    width: 100%;
+}
+
+@media (max-width:810px) {
+    .title, .text{
+        max-width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width:810px) {
+    .title{
+        font-size: 28px;
+    }
+    .text{
+        margin-top: 20px;
+        font-size: 16px;
     }
 }
