@@ -83,9 +83,6 @@
 }
 {
     // case 4 
-    //1yanvar, 3mart, 5may, 7iyul, 8avgust, 10oktyabr, 12dekabr   = 31
-    //4aprel, 6iyun, 9sentyabr, 11noyabr,    = 30
-    //2fevral = 28
     // let monthNumber = 4, r;
     // switch(monthNumber){
     //     case 1:
@@ -182,7 +179,6 @@
     // console.log(r);
 }
 {
-    // tepa      pas      o'ng     chap
 // const tomonlar = ["shimol", "janub", "sharq", "g'arb"];
 // let k = 3;
 // let y;
