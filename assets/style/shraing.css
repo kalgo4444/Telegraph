@@ -69,9 +69,15 @@
     .sharing__img{
         grid-template-columns: repeat(2, 1fr);
     }
+    .sharing__card:last-child{
+        grid-column: 1/3;
+    }
 }
 @media (max-width:550px) {
     .sharing__img{
         grid-template-columns: auto;
+    }
+    .sharing__card:last-child{
+        grid-column: auto;
     }
 }
