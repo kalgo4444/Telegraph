@@ -181,3 +181,42 @@
     // }
     // console.log(r);
 }
+{
+    // tepa      pas      o'ng     chap
+// const tomonlar = ["shimol", "janub", "sharq", "g'arb"];
+// let k = 3;
+// let y;
+// switch(k){
+//     case 0:
+//         y = `${tomonlar[0]} ga qarap harakatlangan`
+//         break;
+//     case 1:
+//         y = `${tomonlar[3]} ga qarap harakatlangan`
+//         break;
+//     case 2:
+//         y = `${tomonlar[2]} ga qarap harakatlangan`
+//         break;
+// }
+// console.log(y);
+}
+{
+// let R = 5, r;
+// let userSelect = 3;
+// switch(userSelect){
+//     case 1:
+//         r = R;
+//         break;
+//     case 2:
+//         r = 2 * R;
+//         break;        
+//     case 3:
+//         r = 2 * Math.PI * R;
+//         break;
+//     case 4:
+//         r = Math.PI * Math.pow(R, 2)
+//         break;
+//     default:
+//         console.log("error");
+// }
+// console.log(r);
+}
