@@ -6,6 +6,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     place-content: center;
+    overflow: hidden;
 }
 .cards__card{
     padding: 30px;
